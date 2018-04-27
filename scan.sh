@@ -29,7 +29,7 @@ mv $SHARED_DIR/artifacts/results/pshtt.csv \
    $SHARED_DIR/artifacts/
 /home/scanner/domain-scan/scan $SHARED_DIR/artifacts/scanme.csv \
                                --scan=sslyze \
-                               --lambda --debug --meta --cache --workers=1
+                               --debug --meta --cache --workers=50
 # Now put the pshtt and trustymail results back
 mv $SHARED_DIR/artifacts/pshtt.csv \
    $SHARED_DIR/artifacts/trustymail.csv \
